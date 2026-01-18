@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Privacy Panel iOS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="panel" class="panel">
+    <h2>Privacy Panel iOS</h2>
+
+    <div class="top-buttons">
+      <button class="btn primary">Headtrick</button>
+      <button class="btn bypass" id="bypassBtn">Bypass</button>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <span>Aimlock</span>
+        <button class="toggle">ON</button>
+      </div>
+
+      <div class="card">
+        <span>Combo Headtrick</span>
+        <button class="toggle">ON</button>
+      </div>
+
+      <div class="card">
+        <span>Sticky Aim</span>
+        <button class="toggle">ON</button>
+      </div>
+    </div>
+
+    <div class="sens">
+      <span>Modo de Sensibilidade</span>
+      <div class="sens-buttons">
+        <button class="btn">Baixa</button>
+        <button class="btn">Alta</button>
+      </div>
+    </div>
+
+    <div class="slider">
+      <label>FOV <span id="fovValue">50</span></label>
+      <input type="range" min="0" max="100" value="50" id="fov">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
